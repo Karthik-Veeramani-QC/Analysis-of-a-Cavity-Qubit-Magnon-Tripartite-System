@@ -6,7 +6,6 @@ This repository contains the COMSOL simulation files, Python analysis, simulatio
 
 ## Repository Structure
 
-* **comsol/** – COMSOL Multiphysics simulation files for the cavity-qubit, cavity-magnon, and tripartite systems.
 * **analysis/** – Python notebooks/scripts for analytical modelling, curve fitting, and data analysis.
 * **data/** – Simulation data exported from COMSOL and used for plotting and fitting.
 * **figures/** – Figures generated from the simulations and analysis.
