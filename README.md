@@ -99,13 +99,13 @@ At a magnetic field of approximately **138.6 mT**, the cavity, qubit, and magnon
 
 ### Tripartite Mode Splitting
 
-![Tripartite S21 transmission map](figures/tripartite_sys_map.png)
+<img src="figures/tripartite_sys_map.png" alt="Tripartite S21 transmission map" width="500">
 
 The simulated $S_{21}$ transmission spectrum shows three hybridized modes as the external magnetic field is varied. The three branches become clearly resolved around **138.6 mT**.
 
 ### Analytical Fit
 
-![Analytical fit to COMSOL data](figures/tripartite_fit.png)
+<img src="figures/tripartite_fit.png" alt="Analytical fit to COMSOL data" width="500">
 
 The three-mode analytical model reproduces the main features of the COMSOL transmission spectrum, including the three hybridized modes and the sharp transmission dips.
 
