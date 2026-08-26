@@ -99,7 +99,7 @@ At a magnetic field of approximately **138.6 mT**, the cavity, qubit, and magnon
 
 ### Tripartite Mode Splitting
 
-![Tripartite S21 transmission map](figures/tripartite_s21_map.png)
+![Tripartite S21 transmission map](figures/tripartite_sys_map.png)
 
 The simulated $S_{21}$ transmission spectrum shows three hybridized modes as the external magnetic field is varied. The three branches become clearly resolved around **138.6 mT**.
 
