@@ -81,6 +81,21 @@ g_{mq}(m^\dagger q + mq^\dagger)
 Here, $c$, $m$, and $q$ represent the cavity photon, magnon, and qubit modes, respectively.
 The resulting transmission response was calculated using input-output theory and compared with the COMSOL $S_{21}$ spectrum.
 
+### Theoretical Model
+
+The $S_{21}$ transmission spectrum was analytically derived utilizing the standard Collett-Gardiner input-output formalism. For the hybridized tripartite system, the complete, non-degenerate transmission spectrum is given by:
+
+$$
+S_{21} = -\sqrt{\kappa_1 \kappa_2} \left[ i\Delta_c + \frac{\kappa_c}{2} + \frac{g_{cq}^2}{i\Delta_q + \frac{\gamma_q}{2}} + \frac{g_{cm}^2}{i\Delta_m + \frac{\kappa_m}{2}} \right]^{-1}
+$$
+
+Where:
+* $\Delta_j = \omega_j - \omega$ captures the detunings from the incoming probe tone frequency $\omega$ for the cavity ($c$), magnon ($m$), and qubit ($q$).
+* $\kappa_c$ (where $\kappa_c = \kappa_1 + \kappa_2 + \kappa_{int}$) is the total cavity decay rate.
+* $\kappa_m$ is the overall magnon loss rate.
+* $\gamma_q$ represents the relaxation of the linear qubit mode.
+* $g_{cm}$ and $g_{cq}$ define the fixed hardware parameters for how strongly the magnon and qubit interact with the cavity field.
+
 ## Key Results
 
 At a magnetic field of approximately **138.6 mT**, the cavity, qubit, and magnon modes hybridize and form three distinct spectral branches.
