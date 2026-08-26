@@ -2,7 +2,7 @@
 
 This repository contains the COMSOL simulation files, Python analysis, simulation data, and report for the analysis of a tripartite superconducting qubit-magnon-cavity system. The project investigates cavity-qubit coupling, cavity-magnon coupling, and three-mode hybridization using full-wave electromagnetic simulations and analytical input-output theory.
 
-![Tripartite Qubit-Magnon-Cavity System](figures/system_sideview.png)
+<img src="figures/system_sideview.png" alt="Tripartite_Qubit-Magnon-Cavity_System" width="500">
 
 ## Repository Structure
 
