@@ -60,12 +60,10 @@ The external magnetic field was swept from **0.136 T to 0.140 T**, allowing the 
 The cavity-magnon coupling strength extracted from the simulation was approximately **35 MHz**.
 
 ## Tripartite System
-
 The superconducting qubit and YIG film were then integrated into the same microwave cavity. The qubit and magnon were spatially separated so that their direct coupling was negligible, with the cavity acting as the primary interaction channel.
-
 The system was modelled using a three-mode Hamiltonian:
 
-$$
+```math
 \frac{H_{\mathrm{sys}}}{\hbar}
 =
 \Delta_c c^\dagger c
@@ -79,10 +77,9 @@ g_{cm}(c^\dagger m + cm^\dagger)
 g_{cq}(c^\dagger q + cq^\dagger)
 +
 g_{mq}(m^\dagger q + mq^\dagger)
-$$
+```
 
 Here, $c$, $m$, and $q$ represent the cavity photon, magnon, and qubit modes, respectively.
-
 The resulting transmission response was calculated using input-output theory and compared with the COMSOL $S_{21}$ spectrum.
 
 ## Key Results
