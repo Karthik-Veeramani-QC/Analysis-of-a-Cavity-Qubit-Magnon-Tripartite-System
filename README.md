@@ -63,7 +63,7 @@ The cavity-magnon coupling strength extracted from the simulation was approximat
 
 The superconducting qubit and YIG film were then integrated into the same microwave cavity. The qubit and magnon were spatially separated so that their direct coupling was negligible, with the cavity acting as the primary interaction channel.
 
-The system is modelled using a three-mode Hamiltonian:
+The system was modelled using a three-mode Hamiltonian:
 
 $$
 \frac{H_{\mathrm{sys}}}{\hbar}
@@ -80,6 +80,8 @@ g_{cq}(c^\dagger q + cq^\dagger)
 +
 g_{mq}(m^\dagger q + mq^\dagger)
 $$
+
+Here, $c$, $m$, and $q$ represent the cavity photon, magnon, and qubit modes, respectively.
 
 The resulting transmission response was calculated using input-output theory and compared with the COMSOL $S_{21}$ spectrum.
 
