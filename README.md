@@ -1,4 +1,3 @@
-````markdown
 # Analysis of a Tripartite Qubit-Magnon-Cavity System Using COMSOL
 
 This repository contains the COMSOL simulation files, Python analysis, simulation data, and report for the analysis of a tripartite superconducting qubit-magnon-cavity system. The project investigates cavity-qubit coupling, cavity-magnon coupling, and three-mode hybridization using full-wave electromagnetic simulations and analytical input-output theory.
@@ -7,15 +6,15 @@ This repository contains the COMSOL simulation files, Python analysis, simulatio
 
 ## Repository Structure
 
-- **comsol/** – COMSOL Multiphysics simulation files for the cavity-qubit, cavity-magnon, and tripartite systems.
-- **analysis/** – Python notebooks/scripts for analytical modelling, curve fitting, and data analysis.
-- **data/** – Simulation data exported from COMSOL and used for plotting and fitting.
-- **figures/** – Figures generated from the simulations and analysis.
-- **Analysis_of_Tripartite_System.pdf** – Complete project report.
+* **comsol/** – COMSOL Multiphysics simulation files for the cavity-qubit, cavity-magnon, and tripartite systems.
+* **analysis/** – Python notebooks/scripts for analytical modelling, curve fitting, and data analysis.
+* **data/** – Simulation data exported from COMSOL and used for plotting and fitting.
+* **figures/** – Figures generated from the simulations and analysis.
+* **Analysis_of_Tripartite_System.pdf** – Complete project report.
 
 ## Workflow
 
-```text
+```
 COMSOL Multiphysics
         ↓
 Cavity-Qubit System
@@ -31,7 +30,7 @@ Three-Mode Analytical Model
 Curve Fitting
         ↓
 Coupling and Loss Extraction
-````
+```
 
 ## Methods
 
